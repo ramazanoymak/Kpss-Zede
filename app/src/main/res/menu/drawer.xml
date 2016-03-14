@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/anasayfa"
+            android:checked="false"
+            android:icon="@drawable/icon_chat"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/haberler"
+            android:checked="false"
+            android:icon="@drawable/ic_haberler"
+            android:title="@string/haberler" />
+
+        <item
+            android:id="@+id/abulunsun"
+            android:checked="false"
+            android:icon="@drawable/ic_abulunsun"
+            android:title="@string/Abulunsun" />
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:icon="@drawable/profile"
+            android:title="@string/lblDrawerProfil" />
+
+        <item
+            android:id="@+id/ayarlar"
+            android:checked="false"
+            android:icon="@drawable/ic_ayarlar"
+            android:title="@string/ayarlar" />
+        <item
+            android:id="@+id/oturum"
+            android:checked="false"
+            android:icon="@drawable/logout"
+            android:title="@string/oturum" />
+
+    </group>
+</menu>

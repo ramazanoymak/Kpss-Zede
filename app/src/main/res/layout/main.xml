@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <!--<ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listmsg"
+        android:layout_weight="1"
+        android:transitionGroup="false"
+        android:smoothScrollbar="false"
+        android:footerDividersEnabled="false"
+        android:drawSelectorOnTop="false" />-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.99">
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:id="@+id/listViewmsg"
+            android:descendantFocusability="blocksDescendants"
+            android:background="#f8f9f1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:background="#f08c1e"
+        android:layout_weight="0.01">
+
+        <EditText
+            android:layout_width="245dp"
+            android:layout_height="70dp"
+            android:id="@+id/msg"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gönder"
+            android:id="@+id/btngndr"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
