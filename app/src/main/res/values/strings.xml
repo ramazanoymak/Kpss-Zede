@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">KpssZede</string>
+    <string name="admob_reklam_kimlik">ca-app-pub-9164238451854530/3554021007</string>
+    <string name="admob_kisi_kimlik"></string>
+    <string name="hello_world">Merhaba dünya</string>
+
+    <string name="cikis">Çıkış</string>
+    <string name="test">deneme</string>
+    <string name="action_arama">lis_value</string>
+    <string name="action_ayarlar">list_value2</string>
+
+    <string-array name="planets_array">
+        <item>KpssZede</item>
+        <item>Haberler</item>
+        <item>Aklınızda Bulunsun!</item>
+        <item>Ayarlar</item>
+        <item>Oturum Aç</item>
+    </string-array>
+
+    <string name="genelyetenek">Genel Yetenek</string>
+    <string name="genelKultur">Genel Kültür</string>
+    <string name="haberler">Haberler</string>
+    <string name="Abulunsun">Aklınızda Bulunsun</string>
+    <string name="oturum">Cikis yap</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="profile">Profil</string>
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+
+    <string name="ders_yazi">Konu Seçiniz</string>
+    <string-array name="ders_array">
+        <item>Türkçe</item>
+        <item>Matematik</item>
+        <item>Geometri</item>
+        <item>Tarih</item>
+        <item>Coğrafya</item>
+        <item>Vatandaşlık</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="hello">Hello World</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="banner_reklam">ca-app-pub-9164238451854530/3554021007</string>
+
+    <string name="hint_email">Mail adresiniz..</string>
+    <string name="hint_password">Şifreniz..</string>
+    <string name="hint_name">Adınız..</string>
+    <string name="hint_sname">Soyadınız..</string>
+
+    <string name="btn_login">Giriş Yap</string>
+    <string name="btn_register">Kayıt Ol</string>
+    <string name="btn_link_to_register">Ücretsiz kayıt olun!</string>
+    <string name="btn_link_to_login">Zaten üye iseniz giriş yapın</string>
+    <string name="welcome">Hoş Geldiniz</string>
+    <string name="btn_logout">Çıkış Yap</string>
+    <string name="name">Fullname</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="lblProfilresmisec">Profil Resimizi Seçin</string>
+    <string name="lblprofilresmidegistir">Profil Resmini değiştir</string>
+    <string name="lblDrawerProfil">Profilim</string>
+</resources>
+

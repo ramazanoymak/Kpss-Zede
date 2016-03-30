@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#ffde4a">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Türkçe"
+            android:id="@+id/btn_Turkce"
+            android:textStyle="bold"
+            android:textColor="#fbf2fc"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffde4a" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Matematik"
+            android:id="@+id/btn_Matematik"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffde4a"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Geometri"
+            android:id="@+id/btn_geometri"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffde4a"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewchat"
+        android:descendantFocusability="blocksDescendants"
+        android:background="#f8f9f1"
+        android:layout_weight="0.9"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+</LinearLayout>
+
+
+

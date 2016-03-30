@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="#cdf38f">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#ffde4a">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Tarih"
+            android:id="@+id/btn_Tarih"
+            android:textStyle="bold"
+            android:textColor="#fbf2fc"
+            android:background="#ffde4a"
+            android:padding="0dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Coğrafya"
+            android:id="@+id/btn_cografya"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffde4a"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Vatandaşlık"
+            android:id="@+id/btn_vatandaslik"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#ffde4a"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+    </LinearLayout>
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewchat"
+        android:descendantFocusability="blocksDescendants"
+        android:background="#f8f9f1"
+        android:layout_weight="0.9" />
+
+</LinearLayout>
+
+
+
